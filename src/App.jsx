@@ -12,7 +12,7 @@ import NotFound from './components/NotFound/NotFound'; // You need to create Not
 function App() {
   return (
     <div className={styles.App}>
-      <Router>
+      <Router basename="/Portfolio">
         <Navbar />
         <Switch>
           <Route exact path="/" component={Hero} />
