@@ -1,0 +1,21 @@
+[
+      {
+        "role": "Cyber Security and Ethical Hacking",
+        "organization": "College Workshop",
+        "startDate": "4Sept, 2022",
+        "endDate": "9Sept, 2022",
+        "experiences": ["Used industry standard tools and software such as Wireshark and Metasploit,Nmap,Kali Linux etc",
+         " Implemented robust encryption protocols and security measures to safeguard sensitive data from potential cyber threats. "],
+        "imageSrc": "history/cs.png"
+      },
+      {
+        "role": "React.js and GitHub",
+        "organization": "College Workshop",
+        "startDate": "11 June, 2023",
+        "endDate": "15 June, 2023",
+        "experiences": ["Developed a ReactJS project  leveraging its component-based architecture to design an intuitive and responsive user interface.", 
+        "The project is hosted on GitHub, providing a collaborative platform for version control and showcasing my proficiency in front-end development with ReactJS."],
+        "imageSrc": "skills/react.png"
+      }
+    ]
+    
