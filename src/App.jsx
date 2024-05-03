@@ -1,5 +1,5 @@
 //import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 
 import styles from "./App.module.css";
 import Navbar from "./components/Navbar/Navbar";
@@ -14,13 +14,15 @@ function App() {
     <div className={styles.App}>
       <Router basename="/Portfolio">
         <Navbar />
-        <Switch>
-          <Route path="/hero" component={Hero} />
-          <Route path="/about" component={About} />
-          <Route path="/experience" component={Experience} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
+        <Routes>
+          <Route path="/hero" element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          {/* Handle unknown routes */}
+          <Route path="*" element={<Navigate to="/hero" />} />
+        </Routes>
       </Router>
     </div>
   );
