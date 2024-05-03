@@ -12,7 +12,7 @@ import Contact from './components/Contact/Contact';
 function App() {
   return (
     <div className={styles.App}>
-      <Router basename="/Portfolio">
+      <Router basename="/PortFolio">
         <Navbar />
         <Routes>
           <Route path="/hero" element={<Hero />} />
