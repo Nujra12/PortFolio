@@ -7,7 +7,7 @@ import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import NotFound from './components/NotFound/NotFound'; // You need to create NotFound component
+//import NotFound from './components/NotFound/NotFound'; // You need to create NotFound component
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/experience" component={Experience} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
-          <Route component={NotFound} /> {/* Handle 404 */}
+          {/* //<Route component={NotFound} /> Handle 404 */}
         </Switch>
       </Router>
     </div>
