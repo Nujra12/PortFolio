@@ -35,14 +35,14 @@
 .link{
       display:flex;
       align-items: center;
-      gap:25px;
+      gap:10px;
 
 }
 
 .link a{
       color:var(--color-text);
       text-decoration: none;
-      font-size: 30px;
+      font-size: 25px;
       font-weight:400;
       letter-spacing: 1.5px;
 }
@@ -61,7 +61,7 @@
     .linkb a {
       color: var(--color-text);
       text-decoration: none;
-      font-size: 30px; /* Adjust the font size as needed */
+      font-size: 25px; /* Adjust the font size as needed */
       font-weight: 400;
       letter-spacing: 1.5px;
       
