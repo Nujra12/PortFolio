@@ -26,7 +26,7 @@ const Contact = () => {
         </li>
         <li className={styles.linkb}>
           <img src={getImageUrl("contact/Phone5.png")} alt="Phone Icon" />
-          <a>+977 9817059920</a>
+          <a>+977 9869646087</a>
         </li>
       </ul>
     </footer>

@@ -109,5 +109,14 @@
             gap: 9px;
             
       }
+      .historyItem {
+            flex-direction: column; /* Stack items vertically */
+          }
+        
+          .historyItem img {
+            order: -1; /* Move the image to the top */
+            align-self: center; /* Align the image at the top */
+          }
     }
+    
     
