@@ -61,6 +61,7 @@
 
 @media screen and (max-width: 830px) {
   .container {
+      background-color: rgba(12, 12, 12, 0.6);
       margin-top: 20px;
     background-color: transparent;
     padding-left: 0;
@@ -75,6 +76,10 @@
   .aboutItem {
     padding-left: 0;
     padding-right: 0;
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
     
   }
 }
@@ -82,12 +87,13 @@
 /* Additional Media Queries for Smaller Devices */
 @media screen and (max-width: 480px) {
   .container {
+      background-color: rgba(12, 12, 12, 0.6);
     padding: 10px; /* Adjust padding for smaller devices */
     margin-top: 20px; /* Adjust margin-top for smaller devices */
   }
   .title {
     font-size: 30px; /* Decrease font size for smaller devices */
-    text-align: left; /* Center-align title for smaller devices */
+    text-align: center; /* Center-align title for smaller devices */
     margin-bottom: 30px; /* Add margin-bottom for spacing */
   }
   .aboutItems {
@@ -95,6 +101,10 @@
   }
   .aboutItem {
     padding: 15px; /* Adjust padding for smaller devices */
+    background-image: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
   }
   .aboutItem h3 {
     font-size: 24px; /* Decrease font size for smaller devices */
