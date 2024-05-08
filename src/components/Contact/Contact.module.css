@@ -116,6 +116,10 @@
     align-items: left; /* Center-align links for smaller devices */
     gap: 20px; /* Decrease gap between links for smaller devices */
   }
+  .link a{
+      font-size: 0.8em; 
+      max-width: 100%;
+  }
 
   .linkb {
     gap: 10px; /* Decrease gap between image and statement for smaller devices */
@@ -127,6 +131,6 @@
   }
 
   .linkb a {
-    font-size: 30px; /* Decrease font size for smaller devices */
+    font-size: 24px; /* Decrease font size for smaller devices */
   }
 }
