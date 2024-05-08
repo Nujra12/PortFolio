@@ -20,7 +20,6 @@
   z-index: 1;
 }
 
-
 .title {
   font-size: 72px;
   font-weight: 900;
@@ -59,7 +58,6 @@
   border-radius: 48%; /* Makes the image circular */
 }
 
-
 @keyframes floating {
   0% {
     transform: translate(0, 0px);
@@ -72,39 +70,78 @@
   }
 }
 
-.topBlur {
+.topBlur{
   position: absolute;
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px; /* Typo? Should it be min-height here? */
-  top: -128px;
-  left: -10vw;
+  min-height: 350px; /* Adjusted from min-width */
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+  background: rgba(25, 55, 109, 0.7); 
   filter: blur(100px);
   z-index: 0;
 }
-
 .bottomBlur {
   position: absolute;
   width: 50vw;
   height: 50vw;
   min-width: 350px;
-  min-width: 350px; /* Typo? Should it be min-height here? */
-  top: 246px;
-  right: -25vw;
+  min-height: 350px; /* Adjusted from min-width */
   border-radius: 764px;
-  background: rgba(25, 55, 109, 0.7);
+   background: rgba(25, 55, 109, 0.7);  
   filter: blur(100px);
   z-index: 0;
+}
+
+.topBlur {
+  top: -128px;
+  left: -10vw;
+}
+
+.bottomBlur {
+  top: 246px;
+  right: -25vw;
 }
 
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column-reverse;
+    margin-left: 5%;
+    margin-right: 5%;
   }
   .content {
     align-items: center;
+  }
+  .title {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .description {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  .contactBtn {
+    font-size: 20px;
+    padding: 12px 20px;
+  }
+  .heroImg {
+    width: 150px;
+  }
+}
+
+/* Additional Media Queries for Smaller Devices */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 36px;
+  }
+  .description {
+    font-size: 20px;
+  }
+  .contactBtn {
+    font-size: 18px;
+    padding: 10px 16px;
+  }
+  .heroImg {
+    width: 100px;
   }
 }
