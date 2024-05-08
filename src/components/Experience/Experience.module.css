@@ -234,7 +234,7 @@
   }
   .title {
     font-size: 30px; /* Decrease font size for smaller devices */
-    text-align: left; /* Center-align title for smaller devices */
+    text-align: center; /* Center-align title for smaller devices */
     margin-bottom: 20px; /* Add margin-bottom for spacing */
   }
   .skills,

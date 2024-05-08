@@ -69,6 +69,7 @@
   }
 
   .title {
+      text-align: center;
     font-size: 24px; /* Decrease font size for smaller devices */
   }
 

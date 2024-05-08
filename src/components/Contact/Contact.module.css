@@ -91,7 +91,7 @@
   }
 
   .links {
-    align-items: flex-start;
+    align-items: left;
   }
 }
 
@@ -104,16 +104,16 @@
 
   .text h2 {
     font-size: 30px; /* Decrease font size for smaller devices */
-    text-align: left; /* Center-align heading for smaller devices */
+    text-align: center; /* Center-align heading for smaller devices */
   }
 
   .text p {
-    font-size: 24px; /* Decrease font size for smaller devices */
+    font-size: 30px; /* Decrease font size for smaller devices */
     text-align: center; /* Center-align paragraph for smaller devices */
   }
 
   .links {
-    align-items: center; /* Center-align links for smaller devices */
+    align-items: left; /* Center-align links for smaller devices */
     gap: 20px; /* Decrease gap between links for smaller devices */
   }
 
@@ -127,6 +127,6 @@
   }
 
   .linkb a {
-    font-size: 20px; /* Decrease font size for smaller devices */
+    font-size: 30px; /* Decrease font size for smaller devices */
   }
 }
