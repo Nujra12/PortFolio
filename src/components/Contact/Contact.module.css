@@ -126,8 +126,8 @@
   }
 
   .linkb img {
-    width: 30px; /* Decrease image size for smaller devices */
-    border-radius: 6px; /* Decrease border-radius for smaller devices */
+    width: 40px; /* Decrease image size for smaller devices */
+    border-radius: 8px; /* Decrease border-radius for smaller devices */
   }
 
   .linkb a {
