@@ -69,7 +69,7 @@
   }
 
   .title {
-    font-size: 22px; /* Decrease font size for smaller devices */
+    font-size: 24px; /* Decrease font size for smaller devices */
   }
 
   .description {
@@ -86,7 +86,7 @@
   }
 
   .link {
-    font-size: 26px; /* Decrease font size for smaller devices */
+    font-size: 24px; /* Decrease font size for smaller devices */
     padding: 1px 18px; /* Adjust padding for smaller devices */
   }
 }

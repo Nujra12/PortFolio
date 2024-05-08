@@ -2,7 +2,7 @@
     
 {
   "title": "Online Examination and Evaluation System",
-"imageSrc": "assets/projects/project.jpg",
+"imageSrc": "assets/skills/project.jpg",
 "description": "Our project, the Online Examination and Evaluation System, revolutionizes educational assessment by digitizing exams, grading, and feedback delivery, fostering efficiency and accessibility. Developed as part of our 7th-semester coursework, this system implements secure user authentication, a Randomized Test Generation Algorithm, and an Automated Score and Evaluation Algorithm.",
   "skills": ["HTML", "CSS", "Javascript","PHP","MySql"],
   "demo": "https://www.example.com",
@@ -10,7 +10,7 @@
   },
       {
         "title": "React.Js library and GitHub",
-        "imageSrc": "assets/projects/project.jpg",
+        "imageSrc": "assets/skills/project.jpg",
         "description": "I utilized ReactJS to develop a project, harnessing its component-based architecture to create an intuitive and responsive user interface. The project is hosted on GitHub, serving as a collaborative platform for version control and demonstrating my expertise in front-end development using ReactJS",
         "skills": ["Javascript", "React", "Node", "GitHub"],
         "demo": "https://www.example.com",
@@ -18,7 +18,7 @@
       },
       {
         "title": "Project C",
-        "imageSrc": "assets/projects/project.jpg",
+        "imageSrc": "assets/skills/project.jpg",
         "description": "This project is not defined.",
         "skills": ["React", "Express", "Node"],
         "demo": "https://www.example.com",
